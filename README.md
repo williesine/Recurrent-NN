@@ -1,4 +1,4 @@
-#Recurrent Neural Networks: Implementing LSTMs for Text Classification, Time Series Predictions, & Nursery Rhyme Generation
+# Recurrent Neural Networks: Implementing LSTMs for Text Classification, Time Series Predictions, & Nursery Rhyme Generation
 
 
 REFERENCES
