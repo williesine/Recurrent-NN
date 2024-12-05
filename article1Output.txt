@@ -1,0 +1,86 @@
+2023-04-19 19:19:19.793234: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 19:19:23.441614: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-19 19:19:23.443894: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-04-19 19:19:23.731786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1747] Found device 0 with properties: 
+pciBusID: 0000:47:00.0 name: NVIDIA A100-SXM4-80GB computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.18GiB deviceMemoryBandwidth: 1.85TiB/s
+2023-04-19 19:19:23.731862: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 19:19:23.736834: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 19:19:23.736886: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 19:19:23.737859: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-19 19:19:23.738049: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-19 19:19:23.738496: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+2023-04-19 19:19:23.739135: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2023-04-19 19:19:23.739248: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 19:19:23.744063: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1889] Adding visible gpu devices: 0
+2023-04-19 19:19:23.760997: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-19 19:19:23.763018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1747] Found device 0 with properties: 
+pciBusID: 0000:47:00.0 name: NVIDIA A100-SXM4-80GB computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.18GiB deviceMemoryBandwidth: 1.85TiB/s
+2023-04-19 19:19:23.763063: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 19:19:23.763516: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 19:19:23.763701: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 19:19:23.763937: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-19 19:19:23.764236: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-19 19:19:23.764558: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+2023-04-19 19:19:23.764743: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2023-04-19 19:19:23.764883: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 19:19:23.768716: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1889] Adding visible gpu devices: 0
+2023-04-19 19:19:23.768745: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 19:19:24.273257: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1287] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-19 19:19:24.273341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1293]      0 
+2023-04-19 19:19:24.273351: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1306] 0:   N 
+2023-04-19 19:19:24.277340: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 78934 MB memory) -> physical GPU (device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:47:00.0, compute capability: 8.0)
+2023-04-19 19:19:25.453969: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-04-19 19:19:25.474443: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2245870000 Hz
+2023-04-19 19:19:26.955756: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 19:19:27.857630: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 19:19:27.887687: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 19:19:28.724961: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+{'politics', 'sport', 'tech', 'entertainment', 'business'}
+64
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding (Embedding)        (None, None, 64)          320000    
+_________________________________________________________________
+dropout (Dropout)            (None, None, 64)          0         
+_________________________________________________________________
+bidirectional (Bidirectional (None, 128)               66048     
+_________________________________________________________________
+dense (Dense)                (None, 6)                 774       
+=================================================================
+Total params: 386,822
+Trainable params: 386,822
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/10
+56/56 - 5s - loss: 1.5954 - accuracy: 0.2680 - val_loss: 1.3673 - val_accuracy: 0.3753
+Epoch 2/10
+56/56 - 1s - loss: 1.1781 - accuracy: 0.5556 - val_loss: 0.8069 - val_accuracy: 0.7820
+Epoch 3/10
+56/56 - 1s - loss: 0.6198 - accuracy: 0.8213 - val_loss: 0.6778 - val_accuracy: 0.8360
+Epoch 4/10
+56/56 - 1s - loss: 0.3825 - accuracy: 0.9022 - val_loss: 0.4328 - val_accuracy: 0.8674
+Epoch 5/10
+56/56 - 1s - loss: 0.2116 - accuracy: 0.9438 - val_loss: 0.3740 - val_accuracy: 0.8764
+Epoch 6/10
+56/56 - 1s - loss: 0.1322 - accuracy: 0.9691 - val_loss: 0.3112 - val_accuracy: 0.9079
+Epoch 7/10
+56/56 - 1s - loss: 0.1131 - accuracy: 0.9685 - val_loss: 0.3079 - val_accuracy: 0.9079
+Epoch 8/10
+56/56 - 1s - loss: 0.0656 - accuracy: 0.9826 - val_loss: 0.2760 - val_accuracy: 0.9146
+Epoch 9/10
+56/56 - 1s - loss: 0.0550 - accuracy: 0.9837 - val_loss: 0.2332 - val_accuracy: 0.9281
+Epoch 10/10
+56/56 - 1s - loss: 0.0676 - accuracy: 0.9820 - val_loss: 0.3285 - val_accuracy: 0.8944
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[[0.00226341 0.00340586 0.00940389 0.88958323 0.05086878 0.04447479]]
+3
+politics
+[[2.7042360e-04 6.7973435e-03 5.7224476e-01 2.0882454e-02 3.4906548e-01
+  5.0739549e-02]]
+2
+bussiness

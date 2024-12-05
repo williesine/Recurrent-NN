@@ -1,0 +1,241 @@
+2023-04-19 20:57:17.491962: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 20:57:18.600942: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-19 20:57:18.601572: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-04-19 20:57:18.994962: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1747] Found device 0 with properties: 
+pciBusID: 0000:47:00.0 name: NVIDIA A100-SXM4-80GB computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.18GiB deviceMemoryBandwidth: 1.85TiB/s
+2023-04-19 20:57:18.995021: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 20:57:18.998373: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 20:57:18.998417: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 20:57:18.999360: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-19 20:57:18.999545: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-19 20:57:19.000042: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+2023-04-19 20:57:19.000648: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2023-04-19 20:57:19.000756: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 20:57:19.004478: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1889] Adding visible gpu devices: 0
+2023-04-19 20:57:19.020200: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-19 20:57:19.022173: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1747] Found device 0 with properties: 
+pciBusID: 0000:47:00.0 name: NVIDIA A100-SXM4-80GB computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.18GiB deviceMemoryBandwidth: 1.85TiB/s
+2023-04-19 20:57:19.022205: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 20:57:19.022429: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 20:57:19.022741: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 20:57:19.022961: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-19 20:57:19.023344: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-19 20:57:19.023768: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+2023-04-19 20:57:19.024105: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2023-04-19 20:57:19.024302: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 20:57:19.028060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1889] Adding visible gpu devices: 0
+2023-04-19 20:57:19.028093: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 20:57:19.543954: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1287] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-19 20:57:19.544038: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1293]      0 
+2023-04-19 20:57:19.544047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1306] 0:   N 
+2023-04-19 20:57:19.547749: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 78934 MB memory) -> physical GPU (device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:47:00.0, compute capability: 8.0)
+2023-04-19 20:57:20.663880: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-04-19 20:57:20.682447: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2245870000 Hz
+2023-04-19 20:57:21.390042: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 20:57:22.159003: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 20:57:22.177468: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 20:57:22.917695: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+Epoch 1/100
+92/92 - 2s - loss: 0.0367
+Epoch 2/100
+92/92 - 0s - loss: 0.0150
+Epoch 3/100
+92/92 - 0s - loss: 0.0121
+Epoch 4/100
+92/92 - 0s - loss: 0.0108
+Epoch 5/100
+92/92 - 0s - loss: 0.0095
+Epoch 6/100
+92/92 - 0s - loss: 0.0084
+Epoch 7/100
+92/92 - 0s - loss: 0.0073
+Epoch 8/100
+92/92 - 0s - loss: 0.0064
+Epoch 9/100
+92/92 - 0s - loss: 0.0055
+Epoch 10/100
+92/92 - 0s - loss: 0.0050
+Epoch 11/100
+92/92 - 0s - loss: 0.0046
+Epoch 12/100
+92/92 - 0s - loss: 0.0044
+Epoch 13/100
+92/92 - 0s - loss: 0.0043
+Epoch 14/100
+92/92 - 0s - loss: 0.0044
+Epoch 15/100
+92/92 - 0s - loss: 0.0042
+Epoch 16/100
+92/92 - 0s - loss: 0.0041
+Epoch 17/100
+92/92 - 0s - loss: 0.0041
+Epoch 18/100
+92/92 - 0s - loss: 0.0041
+Epoch 19/100
+92/92 - 0s - loss: 0.0040
+Epoch 20/100
+92/92 - 0s - loss: 0.0040
+Epoch 21/100
+92/92 - 0s - loss: 0.0040
+Epoch 22/100
+92/92 - 0s - loss: 0.0041
+Epoch 23/100
+92/92 - 0s - loss: 0.0039
+Epoch 24/100
+92/92 - 0s - loss: 0.0040
+Epoch 25/100
+92/92 - 0s - loss: 0.0040
+Epoch 26/100
+92/92 - 0s - loss: 0.0039
+Epoch 27/100
+92/92 - 0s - loss: 0.0039
+Epoch 28/100
+92/92 - 0s - loss: 0.0040
+Epoch 29/100
+92/92 - 0s - loss: 0.0039
+Epoch 30/100
+92/92 - 0s - loss: 0.0038
+Epoch 31/100
+92/92 - 0s - loss: 0.0040
+Epoch 32/100
+92/92 - 0s - loss: 0.0039
+Epoch 33/100
+92/92 - 0s - loss: 0.0039
+Epoch 34/100
+92/92 - 0s - loss: 0.0039
+Epoch 35/100
+92/92 - 0s - loss: 0.0039
+Epoch 36/100
+92/92 - 0s - loss: 0.0039
+Epoch 37/100
+92/92 - 0s - loss: 0.0037
+Epoch 38/100
+92/92 - 0s - loss: 0.0036
+Epoch 39/100
+92/92 - 0s - loss: 0.0037
+Epoch 40/100
+92/92 - 0s - loss: 0.0037
+Epoch 41/100
+92/92 - 0s - loss: 0.0037
+Epoch 42/100
+92/92 - 0s - loss: 0.0037
+Epoch 43/100
+92/92 - 0s - loss: 0.0037
+Epoch 44/100
+92/92 - 0s - loss: 0.0037
+Epoch 45/100
+92/92 - 0s - loss: 0.0036
+Epoch 46/100
+92/92 - 0s - loss: 0.0036
+Epoch 47/100
+92/92 - 0s - loss: 0.0036
+Epoch 48/100
+92/92 - 0s - loss: 0.0035
+Epoch 49/100
+92/92 - 0s - loss: 0.0035
+Epoch 50/100
+92/92 - 0s - loss: 0.0034
+Epoch 51/100
+92/92 - 0s - loss: 0.0035
+Epoch 52/100
+92/92 - 0s - loss: 0.0034
+Epoch 53/100
+92/92 - 0s - loss: 0.0033
+Epoch 54/100
+92/92 - 0s - loss: 0.0035
+Epoch 55/100
+92/92 - 0s - loss: 0.0035
+Epoch 56/100
+92/92 - 0s - loss: 0.0035
+Epoch 57/100
+92/92 - 0s - loss: 0.0035
+Epoch 58/100
+92/92 - 0s - loss: 0.0033
+Epoch 59/100
+92/92 - 0s - loss: 0.0034
+Epoch 60/100
+92/92 - 0s - loss: 0.0034
+Epoch 61/100
+92/92 - 0s - loss: 0.0034
+Epoch 62/100
+92/92 - 0s - loss: 0.0034
+Epoch 63/100
+92/92 - 0s - loss: 0.0033
+Epoch 64/100
+92/92 - 0s - loss: 0.0032
+Epoch 65/100
+92/92 - 0s - loss: 0.0032
+Epoch 66/100
+92/92 - 0s - loss: 0.0032
+Epoch 67/100
+92/92 - 0s - loss: 0.0032
+Epoch 68/100
+92/92 - 0s - loss: 0.0031
+Epoch 69/100
+92/92 - 0s - loss: 0.0030
+Epoch 70/100
+92/92 - 0s - loss: 0.0030
+Epoch 71/100
+92/92 - 0s - loss: 0.0032
+Epoch 72/100
+92/92 - 0s - loss: 0.0030
+Epoch 73/100
+92/92 - 0s - loss: 0.0030
+Epoch 74/100
+92/92 - 0s - loss: 0.0030
+Epoch 75/100
+92/92 - 0s - loss: 0.0028
+Epoch 76/100
+92/92 - 0s - loss: 0.0028
+Epoch 77/100
+92/92 - 0s - loss: 0.0028
+Epoch 78/100
+92/92 - 0s - loss: 0.0028
+Epoch 79/100
+92/92 - 0s - loss: 0.0028
+Epoch 80/100
+92/92 - 0s - loss: 0.0026
+Epoch 81/100
+92/92 - 0s - loss: 0.0027
+Epoch 82/100
+92/92 - 0s - loss: 0.0027
+Epoch 83/100
+92/92 - 0s - loss: 0.0026
+Epoch 84/100
+92/92 - 0s - loss: 0.0026
+Epoch 85/100
+92/92 - 0s - loss: 0.0026
+Epoch 86/100
+92/92 - 0s - loss: 0.0025
+Epoch 87/100
+92/92 - 0s - loss: 0.0026
+Epoch 88/100
+92/92 - 0s - loss: 0.0025
+Epoch 89/100
+92/92 - 0s - loss: 0.0024
+Epoch 90/100
+92/92 - 0s - loss: 0.0024
+Epoch 91/100
+92/92 - 0s - loss: 0.0024
+Epoch 92/100
+92/92 - 0s - loss: 0.0025
+Epoch 93/100
+92/92 - 0s - loss: 0.0024
+Epoch 94/100
+92/92 - 0s - loss: 0.0024
+Epoch 95/100
+92/92 - 0s - loss: 0.0023
+Epoch 96/100
+92/92 - 0s - loss: 0.0023
+Epoch 97/100
+92/92 - 0s - loss: 0.0024
+Epoch 98/100
+92/92 - 0s - loss: 0.0022
+Epoch 99/100
+92/92 - 0s - loss: 0.0022
+Epoch 100/100
+92/92 - 0s - loss: 0.0021
+Train Score: 24.84 RMSE
+Test Score: 60.99 RMSE

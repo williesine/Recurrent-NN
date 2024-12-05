@@ -1,0 +1,141 @@
+2023-04-19 21:06:26.382922: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 21:06:27.448806: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-19 21:06:27.449571: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-04-19 21:06:27.949617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1747] Found device 0 with properties: 
+pciBusID: 0000:47:00.0 name: NVIDIA A100-SXM4-80GB computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.18GiB deviceMemoryBandwidth: 1.85TiB/s
+2023-04-19 21:06:27.949676: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 21:06:27.952757: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 21:06:27.952799: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 21:06:27.953715: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-19 21:06:27.953902: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-19 21:06:27.954312: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+2023-04-19 21:06:27.954951: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2023-04-19 21:06:27.955057: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 21:06:27.958705: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1889] Adding visible gpu devices: 0
+2023-04-19 21:06:27.974250: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-19 21:06:27.976155: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1747] Found device 0 with properties: 
+pciBusID: 0000:47:00.0 name: NVIDIA A100-SXM4-80GB computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.18GiB deviceMemoryBandwidth: 1.85TiB/s
+2023-04-19 21:06:27.976180: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 21:06:27.976383: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 21:06:27.976812: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 21:06:27.977223: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-19 21:06:27.977462: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-19 21:06:27.977769: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+2023-04-19 21:06:27.978105: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2023-04-19 21:06:27.978505: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 21:06:27.983934: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1889] Adding visible gpu devices: 0
+2023-04-19 21:06:27.983966: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-04-19 21:06:28.430661: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1287] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-19 21:06:28.430747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1293]      0 
+2023-04-19 21:06:28.430755: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1306] 0:   N 
+2023-04-19 21:06:28.436723: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 78934 MB memory) -> physical GPU (device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:47:00.0, compute capability: 8.0)
+2023-04-19 21:06:29.511309: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-04-19 21:06:29.530457: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2245870000 Hz
+2023-04-19 21:06:30.620447: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-04-19 21:06:31.312041: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-04-19 21:06:31.332251: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-04-19 21:06:32.156429: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+92/92 - 3s - loss: 0.0047
+92/92 - 0s - loss: 0.0139
+92/92 - 0s - loss: 0.0092
+92/92 - 0s - loss: 0.0072
+92/92 - 0s - loss: 0.0061
+92/92 - 0s - loss: 0.0056
+92/92 - 0s - loss: 0.0054
+92/92 - 0s - loss: 0.0054
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0053
+92/92 - 0s - loss: 0.0052
+92/92 - 0s - loss: 0.0052
+92/92 - 0s - loss: 0.0052
+92/92 - 0s - loss: 0.0051
+92/92 - 0s - loss: 0.0051
+92/92 - 0s - loss: 0.0050
+92/92 - 0s - loss: 0.0049
+92/92 - 0s - loss: 0.0049
+92/92 - 0s - loss: 0.0048
+92/92 - 0s - loss: 0.0047
+92/92 - 0s - loss: 0.0046
+92/92 - 0s - loss: 0.0045
+92/92 - 0s - loss: 0.0044
+92/92 - 0s - loss: 0.0042
+92/92 - 0s - loss: 0.0041
+92/92 - 0s - loss: 0.0039
+92/92 - 0s - loss: 0.0037
+92/92 - 0s - loss: 0.0035
+92/92 - 0s - loss: 0.0033
+92/92 - 0s - loss: 0.0032
+92/92 - 0s - loss: 0.0030
+92/92 - 0s - loss: 0.0028
+92/92 - 0s - loss: 0.0026
+92/92 - 0s - loss: 0.0025
+92/92 - 0s - loss: 0.0024
+92/92 - 0s - loss: 0.0023
+92/92 - 0s - loss: 0.0022
+92/92 - 0s - loss: 0.0021
+92/92 - 0s - loss: 0.0020
+92/92 - 0s - loss: 0.0019
+92/92 - 0s - loss: 0.0019
+92/92 - 0s - loss: 0.0018
+92/92 - 0s - loss: 0.0018
+92/92 - 0s - loss: 0.0018
+92/92 - 0s - loss: 0.0017
+92/92 - 0s - loss: 0.0017
+92/92 - 0s - loss: 0.0017
+92/92 - 0s - loss: 0.0017
+92/92 - 0s - loss: 0.0017
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0016
+92/92 - 0s - loss: 0.0015
+92/92 - 0s - loss: 0.0015
+92/92 - 0s - loss: 0.0015
+92/92 - 0s - loss: 0.0015
+92/92 - 0s - loss: 0.0015
+92/92 - 0s - loss: 0.0015
+92/92 - 0s - loss: 0.0015
+92/92 - 0s - loss: 0.0015
+Train Score: 20.58 RMSE
+Test Score: 55.96 RMSE
